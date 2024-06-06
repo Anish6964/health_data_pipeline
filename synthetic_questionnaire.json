@@ -1,0 +1,135 @@
+{
+  "title": "Short Health questionnaire",
+  "questions": [
+    {
+      "questionId": "q-001",
+      "question": "What sex was assigned to you at birth?",
+      "templateType": "radio",
+      "answers": [
+        {
+          "answer": "Male",
+          "value": "1"
+        },
+        {
+          "answer": "Female",
+          "value": "2"
+        },
+        {
+          "answer": "Intersex",
+          "value": "3"
+        },
+        {
+          "answer": "Other",
+          "value": "4"
+        },
+        {
+          "answer": "Prefer not to say",
+          "value": "5"
+        }
+      ],
+      "validators": [
+        {
+          "validatorType": "notEmpty",
+          "invalidMessage": "Enter the value it is required"
+        }
+      ]
+    },
+    {
+      "questionId": "q-002",
+      "question": "What is your age?",
+      "templateType": "radio",
+      "answers": [
+        {
+          "answer": "18-30",
+          "value": "1"
+        },
+        {
+          "answer": "30-39",
+          "value": "2"
+        },
+        {
+          "answer": "40-49",
+          "value": "3"
+        },
+        {
+          "answer": "50-59",
+          "value": "4"
+        },
+        {
+          "answer": "60-69",
+          "value": "5"
+        },
+        {
+          "answer": ">70",
+          "value": "6"
+        },
+        {
+          "answer": "Prefer not to answer",
+          "value": "14"
+        }
+      ],
+      "validators": [
+        {
+          "validatorType": "notEmpty",
+          "invalidMessage": "Enter the value it is required"
+        }
+      ]
+    },
+    {
+      "questionId": "q-003",
+      "question": "How often do you exercise?",
+      "templateType": "radio",
+      "answers": [
+        {
+          "answer": "Once a day",
+          "value": "1"
+        },
+        {
+          "answer": "Twice a day",
+          "value": "2"
+        },
+        {
+          "answer": "Once a week",
+          "value": "3"
+        },
+        {
+          "answer": "Twice a week",
+          "value": "4"
+        },
+        {
+          "answer": "More than 3 days per week",
+          "value": "5"
+        },
+        {
+          "answer": "I dont exercise at all",
+          "value": "6"
+        },
+        {
+          "answer": "Sometimes",
+          "value": "7"
+        },
+        {
+          "answer": "Prefer not to answer",
+          "value": "20"
+        }
+      ],
+      "validators": [
+        {
+          "validatorType": "notEmpty",
+          "invalidMessage": "Enter the value it is required"
+        }
+      ]
+    },
+    {
+      "questionId": "q-004",
+      "question": "How many glassed of water do you drink per day",
+      "templateType": "integer",
+      "validators": [
+        {
+          "validatorType": "notEmpty",
+          "invalidMessage": "Enter the value it is required"
+        }
+      ]
+    }
+  ]
+}
